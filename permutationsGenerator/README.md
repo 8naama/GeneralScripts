@@ -13,7 +13,7 @@ Permutations p = new Permutations(8);
 ```java
 System.out.println(p);
 ```
-3. You can use the permuations by retreving the created object (an array of arrays), each sub-array holds a different permuations. Example:
+3. You can use the permutations by retreving the created object (an array of arrays), each sub-array holds a different permutations. Example:
 ```java
 int[][] myPermutations = p.getPermutations();
 ```
