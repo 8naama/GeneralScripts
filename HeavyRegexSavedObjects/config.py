@@ -22,7 +22,7 @@ CSV_FILE_PATH = "<<PATH_TO_SAVE_FILE>>"
 # DB connection config #
 ########################
 DB_USERNAME = "<<DB_USERNAME>>"
-DB_PASSWORD = "" "<<DB_PASSWORD>>"
+DB_PASSWORD = "<<DB_PASSWORD>>"
 DB_CONNECTIONS = {
     "us-east-1": "<<DB_HOST>>",
     "eu-central-1": "<<DB_HOST>>",
