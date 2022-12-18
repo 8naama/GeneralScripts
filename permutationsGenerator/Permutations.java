@@ -109,9 +109,7 @@ public class Permutations {
      * Constructor of Permutations, if no n is given will return permutation of 1!
      */
     public Permutations() {
-        permutationsArray = new int[1][1];
-        int[]element = {1};
-        permutationsArray[0] = element;
+        this(1);
     }
     
     /**
@@ -153,6 +151,11 @@ public class Permutations {
                     i++;
                 }
             }
+        }
+        else { // n == 1
+            permutationsArray = new int[1][1];
+            int[]element = {1};
+            permutationsArray[0] = element;
         }
     }
     
