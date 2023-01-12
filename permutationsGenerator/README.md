@@ -2,7 +2,7 @@
 This Class generates n! Permutations for a given n using QuickPerm algorithem.
 
 ## Prerequisites
-You will java v1.8.0_301
+You will need java v1.8.0_301
 
 ## Setup
 1. Create instance of the Permutations class with the wanted n. For example:
